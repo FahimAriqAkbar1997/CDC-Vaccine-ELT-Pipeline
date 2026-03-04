@@ -1,4 +1,4 @@
-# 🏥 CDC Infant Vaccination Coverage ETL Pipeline
+# 🏥 CDC Infant Vaccination Coverage ELT Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Databricks](https://img.shields.io/badge/Databricks-Community%20Edition-orange)
@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
 ## 📌 Overview
-An end-to-end ETL pipeline analyzing CDC infant vaccination coverage data 
+An end-to-end ELT pipeline analyzing CDC infant vaccination coverage data 
 across U.S. states using **Databricks**, **PySpark**, and **Delta Lake**. 
 Implements the **Medallion Architecture** (Bronze → Silver → Gold) to 
 progressively clean, transform, and aggregate raw public health data into 
